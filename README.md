@@ -1,12 +1,30 @@
-# React + Vite
+React + WordPress Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and professional portfolio website built using React (with Vite) for the frontend and WordPress (hosted on 000WebHost) as a headless CMS for the backend. The site fetches blog posts and static page content (About, Contact) using the WordPress REST API.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Links
 
-## Expanding the ESLint configuration
+- Frontend (Netlify):  https://wordpressfrontend.netlify.app/   
+- Backend API (000WebHost):
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tools Used
+
+- React.js + Vite (Frontend)
+- WordPress (Backend CMS)
+- REST API (JSON)
+- Netlify (Frontend Hosting)
+- 000WebHost (WordPress Hosting)
+- GitHub
+
+Features
+
+- Hero landing page with image, heading, and navigation
+- Blog list view with clickable cards linked to full post pages
+- Dynamic routing to blog posts via `react-router-dom`
+- About and Contact pages fetched from WordPress
+- Fully responsive and styled with custom CSS
+- REST API integration between frontend and backend
+
+
